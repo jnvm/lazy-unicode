@@ -21,6 +21,3 @@ and getters construct the full block string once upon first invocation and immed
 	'{"MAHJONG_TILES":"🀀🀁🀂🀃🀄🀅🀆🀇🀈🀉🀊🀋🀌🀍🀎🀏🀐🀑🀒🀓🀔🀕🀖🀗🀘🀙🀚🀛🀜🀝🀞🀟🀠🀡🀢🀣🀤🀥🀦🀧🀨🀩🀪🀫🀬🀭🀮🀯🀰"}
 	
 All [blocks](https://github.com/mathiasbynens/unicode-9.0.0/tree/master/Block) are available.
-
-
-Access to all 128,172 unicode characters by block in < 8kb.
