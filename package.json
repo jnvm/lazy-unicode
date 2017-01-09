@@ -1,6 +1,6 @@
 {
   "name": "lazy-unicode",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Access to all 128,172 unicode characters by block in < 8kb",
   "main": "lazy-unicode.js",
   "scripts": {
