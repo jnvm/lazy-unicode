@@ -1,0 +1,32 @@
+{
+  "name": "lazy-unicode",
+  "version": "1.0.0",
+  "description": "Access to all 128,172 unicode characters by block in < 8kb",
+  "main": "lazy-unicode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnvm/lazy-unicode.git"
+  },
+  "keywords": [
+    "unicode",
+    "unicode",
+    "blocks",
+    "code",
+    "points",
+    "characters",
+    "scripts",
+    "lazy-loading",
+    "foreign",
+    "characters",
+    "emoji"
+  ],
+  "author": "jnvm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jnvm/lazy-unicode/issues"
+  },
+  "homepage": "https://github.com/jnvm/lazy-unicode#readme"
+}
