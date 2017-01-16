@@ -296,7 +296,7 @@
     "YI_SYLLABLES",
     "YIJING_HEXAGRAM_SYMBOLS"
   ],
-  "author": "jnvm",
+  "author": "Joη <j@nvm.io> (http://nvm.io)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jnvm/lazy-unicode/issues"
