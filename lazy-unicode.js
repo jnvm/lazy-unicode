@@ -19,9 +19,7 @@ Object.keys(blocks).forEach(name=>
 		configurable:true
 		,get(){
 			delete o[name]
-			var a=blocks[name]
-				,start=a[0]
-				,length=a[1]
+			var [start,length]=blocks[name]
 			o[name]=" ".repeat(length).split(" ").map((x,i)=>String.fromCodePoint(start+i)).join("")
 			return o[name]
 		}
