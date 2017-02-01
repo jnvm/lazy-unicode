@@ -16,7 +16,8 @@ var blocks={ADLAM:[125184,96],AEGEAN_NUMBERS:[65792,64],AHOM:[71424,64],ALCHEMIC
 
 Object.keys(blocks).forEach(name=>
 	Object.defineProperty(o,name,{
-		configurable:true
+		configurable:true,
+		enumerable: true,
 		,get(){
 			delete o[name]
 			var [start,length]=blocks[name]
