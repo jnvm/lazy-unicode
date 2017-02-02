@@ -18,7 +18,7 @@ Object.keys(blocks).forEach(name=>
 	Object.defineProperty(o,name,{
 		configurable:true,
 		enumerable: true,
-		,get(){
+		get(){
 			delete o[name]
 			var [start,length]=blocks[name]
 			o[name]=" ".repeat(length).split(" ").map((x,i)=>String.fromCodePoint(start+i)).join("")
