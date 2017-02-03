@@ -1,6 +1,6 @@
 {
   "name": "lazy-unicode",
-  "version": "1.0.7-jscrambler",
+  "version": "1.0.8",
   "description": "Access to all 128,172 unicode characters by block in < 8kb",
   "main": "lazy-unicode.js",
   "scripts": {
@@ -11,7 +11,6 @@
     "url": "git+https://github.com/jnvm/lazy-unicode.git"
   },
   "keywords": [
-    "unicode",
     "unicode",
     "blocks",
     "code",
