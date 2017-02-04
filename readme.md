@@ -13,11 +13,7 @@ and getters construct the full block string once upon first invocation and immed
 ## Example
 	> var u=require("lazy-unicode-blocks")
 	undefined
-	> JSON.stringify(u)
-	'{}'
 	> u.MAHJONG_TILES //substitute for any block name, take a look by tabbing at u.|
 	'🀀🀁🀂🀃🀄🀅🀆🀇🀈🀉🀊🀋🀌🀍🀎🀏🀐🀑🀒🀓🀔🀕🀖🀗🀘🀙🀚🀛🀜🀝🀞🀟🀠🀡🀢🀣🀤🀥🀦🀧🀨🀩🀪🀫🀬🀭🀮🀯🀰'
-	> JSON.stringify(u)
-	'{"MAHJONG_TILES":"🀀🀁🀂🀃🀄🀅🀆🀇🀈🀉🀊🀋🀌🀍🀎🀏🀐🀑🀒🀓🀔🀕🀖🀗🀘🀙🀚🀛🀜🀝🀞🀟🀠🀡🀢🀣🀤🀥🀦🀧🀨🀩🀪🀫🀬🀭🀮🀯🀰"}
-	
+
 All [blocks](https://github.com/mathiasbynens/unicode-9.0.0/tree/master/Block) are available.
